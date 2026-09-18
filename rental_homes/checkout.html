@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-secondary":"#ffffff","on-primary-fixed-variant":"#920029","surface-bright":"#fcf9f8","inverse-on-surface":"#f3f0ef","on-secondary-fixed":"#40000e","on-surface-variant":"#5c3f41","tertiary-container":"#008287","inverse-surface":"#303030","tertiary":"#00676b","secondary-container":"#ff576f","on-tertiary-fixed-variant":"#004f52","on-primary-container":"#fffbff","surface-container":"#f0eded","on-secondary-fixed-variant":"#92002a","primary-container":"#e21e4a","surface-container-lowest":"#ffffff","outline-variant":"#e5bdbe","surface-tint":"#be0038","tertiary-fixed-dim":"#74d6db","on-tertiary":"#ffffff","primary-fixed-dim":"#ffb2b6","error-container":"#ffdad6","inverse-primary":"#ffb2b6","outline":"#906f70","on-tertiary-container":"#f3ffff","surface-container-high":"#eae7e7","background":"#fcf9f8","on-error-container":"#93000a","surface":"#fcf9f8","secondary-fixed-dim":"#ffb2b7","on-secondary-container":"#5f0019","on-error":"#ffffff","surface-variant":"#e5e2e1","on-tertiary-fixed":"#002021","primary":"#ba0036","surface-container-highest":"#e5e2e1","surface-dim":"#dcd9d9","tertiary-fixed":"#91f2f7","secondary":"#b61e3e","on-surface":"#1b1c1c","on-background":"#1b1c1c","error":"#ba1a1a","on-primary-fixed":"#40000d","surface-container-low":"#f6f3f2","secondary-fixed":"#ffdadb","primary-fixed":"#ffdada","on-primary":"#ffffff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xl":"2.5rem","gutter-sm":"1rem","margin-mobile":"1.25rem","space-lg":"1.5rem","space-xs":"0.25rem","margin":"2.5rem","space-sm":"0.5rem","gutter":"1.5rem","space-md":"1rem"},"fontFamily":{"headline-xl":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-md":["Inter"],"body-lg":["Inter"],"body-sm":["Inter"],"label-md":["Inter"],"label-sm":["Inter"],"label-lg":["Inter"]},"fontSize":{"headline-xl":["32px",{"lineHeight":"40px","fontWeight":"700"}],"headline-xl-mobile":["26px",{"lineHeight":"32px","fontWeight":"700"}],"headline-md":["20px",{"lineHeight":"26px","fontWeight":"600"}],"headline-lg":["24px",{"lineHeight":"30px","fontWeight":"600"}],"headline-sm":["16px",{"lineHeight":"22px","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","fontWeight":"600"}],"label-sm":["10px",{"lineHeight":"14px","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"18px","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.06)]"><div class="h-20 max-w-[1760px] mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm"><a href="index.html"><img alt="StayNest Logo" class="h-8 w-auto object-contain" src="assets/logo.svg"/></a><span class="font-headline-md text-headline-md text-primary tracking-tight hidden sm:inline-block">StayNest</span></div><div class="hidden md:flex items-center bg-surface-container-lowest shadow-[0_1px_2px_rgba(0,0,0,0.08),0_4px_12px_rgba(0,0,0,0.05)] hover:shadow-[0_6px_20px_rgba(0,0,0,0.12)] transition-shadow duration-200 rounded-full py-2 px-space-md cursor-pointer"><button class="font-label-lg text-label-lg text-on-surface px-space-sm hover:text-on-surface-variant transition-colors" type="button">Anywhere</button><div class="h-6 w-[1px] bg-surface-container mx-space-xs"></div><button class="font-label-lg text-label-lg text-on-surface px-space-sm hover:text-on-surface-variant transition-colors" type="button">Any week</button><div class="h-6 w-[1px] bg-surface-container mx-space-xs"></div><button class="font-body-md text-body-md text-on-surface-variant px-space-sm hover:text-on-surface transition-colors" type="button">Add guests</button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-on-primary ml-space-xs"><span class="material-symbols-outlined text-[18px]">search</span></div></div><div class="flex items-center gap-space-sm"><nav class="flex items-center gap-space-xs" data-active-classes="text-on-surface font-bold"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-space-sm py-space-xs rounded-full hover:bg-surface-container-low transition-colors hidden sm:block" data-path="host-homes" href="#">Become a host</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-space-sm py-space-xs rounded-full hover:bg-surface-container-low transition-colors hidden lg:block" data-path="explore-catalog" href="#">Experiences</a></nav><button class="w-10 h-10 rounded-full hover:bg-surface-container-low flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">globe</span></button><div class="flex items-center gap-space-sm bg-surface-container-lowest hover:shadow-[0_2px_8px_rgba(0,0,0,0.1)] transition-shadow duration-150 py-1.5 px-space-sm rounded-full cursor-pointer"><span class="material-symbols-outlined text-on-surface text-[20px]">menu</span><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8fbPLZMC_qdJ5SypD5VLQxl9ACFaTy7lEFcDHmy7TO3e13ujXPnNPPoc60JWmZ8fV7JzNA8kZ39oBfiky1iS6PuLB2eA2ZsTQd54uINMJ4GtRyB5-32NLULPDLKwwikfWZdOitYmbgiQgKdol0hdvPPX15X7DaWW0rfTl25T5eiYYj89UUmh6VzbLEKitoeH-avRfQlB8t3rgKyUwOv58fWnTINYjQhgPcYqtSSanqN695k1noXoSnw"/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-280px)]"><div class="flex flex-col w-full">
+<div class="max-w-[1760px] mx-auto w-full px-margin-mobile md:px-margin py-space-md">
+<!-- Top Nav / Return Breadcrumb -->
+<div class="flex items-center gap-space-sm mb-space-lg">
+<button class="w-10 h-10 rounded-full bg-surface-container-low hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+</button>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Step 2 of 2</span>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Confirm and pay</h1>
+</div>
+</div>
+<!-- Main Two-Column Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg xl:gap-space-xl items-start">
+<!-- Left Column: Checkout Modules -->
+<div class="lg:col-span-7 flex flex-col gap-space-xl">
+<!-- Trip Highlights / Quick Guarantee Banner -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[26px]">diamond</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">Rare find</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Wayra's place is usually fully booked for October.</p>
+</div>
+</div>
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-space-sm py-1 rounded-full shrink-0">Popular</span>
+</div>
+<!-- Section 1: Your Trip -->
+<section class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-md text-headline-md text-on-surface">Your trip</h2>
+<span class="material-symbols-outlined text-primary text-[22px]">calendar_month</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- Dates Segment -->
+<div class="flex items-center justify-between py-space-xs">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Dates</span>
+<span class="font-body-md text-body-md text-on-surface-variant" id="display-dates">Oct 15 – 20, 2026 (5 nights)</span>
+</div>
+<button class="font-label-lg text-label-lg text-on-surface underline hover:text-primary transition-colors py-1 px-space-xs rounded" id="btn-edit-dates" type="button">
+                Edit
+              </button>
+</div>
+<!-- Date Picker Modal Simulator (Inline toggle) -->
+<div class="hidden bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-sm transition-all duration-300" id="date-picker-drawer">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-on-surface">Adjust check-in &amp; check-out</span>
+<button class="text-on-surface-variant hover:text-on-surface" id="btn-close-date-picker" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="bg-surface-container-lowest p-space-sm rounded-lg">
+<label class="block font-label-sm text-label-sm text-on-surface-variant">CHECK-IN</label>
+<input class="font-body-md text-body-md text-on-surface bg-transparent w-full focus:outline-none" readonly="" type="text" value="Oct 15, 2026"/>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg">
+<label class="block font-label-sm text-label-sm text-on-surface-variant">CHECKOUT</label>
+<input class="font-body-md text-body-md text-on-surface bg-transparent w-full focus:outline-none" readonly="" type="text" value="Oct 20, 2026"/>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+                Dates are flexible with host approval
+              </p>
+<button class="self-end bg-inverse-surface text-inverse-on-surface font-label-md text-label-md px-space-md py-1.5 rounded-lg hover:opacity-90" id="btn-save-dates" type="button">
+                Update
+              </button>
+</div>
+<!-- Guests Segment -->
+<div class="flex items-center justify-between py-space-xs">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Guests</span>
+<span class="font-body-md text-body-md text-on-surface-variant" id="display-guests">2 guests (1 bedroom, 1 bed)</span>
+</div>
+<button class="font-label-lg text-label-lg text-on-surface underline hover:text-primary transition-colors py-1 px-space-xs rounded" id="btn-edit-guests" type="button">
+                Edit
+              </button>
+</div>
+<!-- Guest Selector Drawer -->
+<div class="hidden bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-sm" id="guests-picker-drawer">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-on-surface">Party size</span>
+<button class="text-on-surface-variant hover:text-on-surface" id="btn-close-guests-picker" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="flex items-center justify-between bg-surface-container-lowest p-space-sm rounded-lg">
+<div>
+<p class="font-label-md text-label-md text-on-surface">Adults &amp; Children</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ages 2 or above</p>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="w-8 h-8 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center font-bold text-on-surface" id="guest-minus" type="button">-</button>
+<span class="font-label-lg text-label-lg w-6 text-center" id="guest-count">2</span>
+<button class="w-8 h-8 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center font-bold text-on-surface" id="guest-plus" type="button">+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Choose how to pay -->
+<section class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Choose how to pay</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Select your preferred payment schedule</p>
+</div>
+<span class="material-symbols-outlined text-primary text-[22px]">payments</span>
+</div>
+<div class="flex flex-col gap-space-sm mt-space-xs">
+<!-- Option 1: Full -->
+<label class="relative flex items-start justify-between p-space-md rounded-xl cursor-pointer transition-all bg-surface-container-low shadow-sm" id="payment-plan-full-card">
+<div class="flex items-start gap-space-md">
+<input checked="" class="mt-1 w-4 h-4 text-primary accent-primary cursor-pointer" name="payment_plan" type="radio" value="full"/>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">Pay in full</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pay the total $1,888.00 now and finalize your reservation completely.</p>
+</div>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface shrink-0">$1,888.00</span>
+</label>
+<!-- Option 2: Split -->
+<label class="relative flex items-start justify-between p-space-md rounded-xl cursor-pointer transition-all bg-surface-container-lowest hover:bg-surface-container-low shadow-none" id="payment-plan-split-card">
+<div class="flex items-start gap-space-md">
+<input class="mt-1 w-4 h-4 text-primary accent-primary cursor-pointer" name="payment_plan" type="radio" value="split"/>
+<div>
+<div class="flex items-center gap-2">
+<p class="font-label-lg text-label-lg text-on-surface">Pay part now, part later</p>
+<span class="bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm px-2 py-0.5 rounded-full">0% Interest</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">$944.00 due today, $944.00 on Oct 1, 2026. Auto-deducted with no hidden fees.</p>
+</div>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface shrink-0">$944.00</span>
+</label>
+</div>
+</section>
+<!-- Section 3: Pay with -->
+<section class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-md text-headline-md text-on-surface">Pay with</h2>
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span class="font-label-sm text-label-sm">256-bit SSL Encrypted</span>
+</div>
+</div>
+<!-- Method Selectors -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-xs">
+<button class="payment-tab active bg-surface-container-low text-on-surface font-label-md text-label-md py-2.5 px-space-sm rounded-xl flex items-center justify-center gap-1.5 shadow-sm" data-method="card" type="button">
+<span class="material-symbols-outlined text-[18px]">credit_card</span>
+<span>Card</span>
+</button>
+<button class="payment-tab bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low font-label-md text-label-md py-2.5 px-space-sm rounded-xl flex items-center justify-center gap-1.5" data-method="apple" type="button">
+<span class="material-symbols-outlined text-[18px]">phone_iphone</span>
+<span>Apple Pay</span>
+</button>
+<button class="payment-tab bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low font-label-md text-label-md py-2.5 px-space-sm rounded-xl flex items-center justify-center gap-1.5" data-method="google" type="button">
+<span class="material-symbols-outlined text-[18px]">account_balance_wallet</span>
+<span>G Pay</span>
+</button>
+<button class="payment-tab bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low font-label-md text-label-md py-2.5 px-space-sm rounded-xl flex items-center justify-center gap-1.5" data-method="paypal" type="button">
+<span class="material-symbols-outlined text-[18px]">paid</span>
+<span>PayPal</span>
+</button>
+</div>
+<!-- Card Form Container -->
+<div class="flex flex-col gap-space-sm mt-space-xs" id="card-fields-group">
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-sm">
+<!-- Card Number -->
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant mb-1">Card number</label>
+<div class="relative flex items-center">
+<input class="w-full bg-surface-container-lowest rounded-lg py-2.5 px-space-md font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant/40 focus:outline-none focus:ring-2 focus:ring-primary shadow-inner" id="card-number-input" placeholder="4242 •••• •••• 4242" type="text" value="4532 8821 9043 2894"/>
+<div class="absolute right-3 flex items-center gap-1">
+<span class="bg-primary-fixed text-primary font-bold text-[10px] px-1.5 py-0.5 rounded">VISA</span>
+<span class="bg-surface-container text-on-surface-variant font-bold text-[10px] px-1.5 py-0.5 rounded">MC</span>
+</div>
+</div>
+</div>
+<!-- Expiration & CVV -->
+<div class="grid grid-cols-2 gap-space-sm">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant mb-1">Expiration</label>
+<input class="w-full bg-surface-container-lowest rounded-lg py-2.5 px-space-md font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant/40 focus:outline-none focus:ring-2 focus:ring-primary shadow-inner" placeholder="MM / YY" type="text" value="08/29"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant mb-1">CVV / CVC</label>
+<div class="relative flex items-center">
+<input class="w-full bg-surface-container-lowest rounded-lg py-2.5 px-space-md font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant/40 focus:outline-none focus:ring-2 focus:ring-primary shadow-inner" maxlength="4" placeholder="123" type="password" value="842"/>
+<span class="material-symbols-outlined text-[16px] absolute right-3 text-on-surface-variant">help</span>
+</div>
+</div>
+</div>
+<!-- Zip & Country -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant mb-1">ZIP code</label>
+<input class="w-full bg-surface-container-lowest rounded-lg py-2.5 px-space-md font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant/40 focus:outline-none focus:ring-2 focus:ring-primary shadow-inner" placeholder="Postal code" type="text" value="94103"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant mb-1">Country / Region</label>
+<select class="w-full bg-surface-container-lowest rounded-lg py-2.5 px-space-md font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary shadow-inner">
+<option selected="">United States (+1)</option>
+<option>United Kingdom (+44)</option>
+<option>Germany (+49)</option>
+<option>Australia (+61)</option>
+<option>Japan (+81)</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Cancellation policy -->
+<section class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[22px]">event_available</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Cancellation policy</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface">
+<strong class="font-label-lg text-label-lg text-on-surface">Free cancellation before 3:00 PM on Oct 10.</strong>
+            Review the full policy for refunds of fees and nightly rates. Cancel before check-in on Oct 15 for a partial refund.
+          </p>
+<a class="font-label-md text-label-md text-primary underline self-start hover:opacity-80" href="#">Read full policy</a>
+</section>
+<!-- Section 5: Ground rules -->
+<section class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">gavel</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Ground rules</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            We ask every guest to remember a few simple things about what makes a great guest.
+          </p>
+<ul class="flex flex-col gap-space-xs mt-space-xs">
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+              Follow the house rules (no indoor smoking, quiet hours after 10:00 PM).
+            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+              Treat your Host's home like your own.
+            </li>
+</ul>
+</section>
+<!-- Section 6: Legal & CTA Button -->
+<section class="flex flex-col gap-space-md pt-space-xs">
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            By selecting the button below, I agree to the <a class="underline text-on-surface" href="#">Host's House Rules</a>, <a class="underline text-on-surface" href="#">Ground Rules for Guests</a>, <a class="underline text-on-surface" href="#">StayNest's Rebooking and Refund Policy</a>, and that StayNest can charge my payment method if I'm responsible for damage.
+          </p>
+<button class="w-full sm:w-auto self-start bg-gradient-to-r from-primary via-primary-container to-secondary text-on-primary font-label-lg text-label-lg px-space-xl py-space-md rounded-xl shadow-lg hover:shadow-xl hover:scale-[1.01] active:scale-[0.99] transition-all flex items-center justify-center gap-space-sm cursor-pointer" id="btn-submit-booking" type="button">
+<span class="material-symbols-outlined text-[20px]">lock</span>
+<span id="cta-button-label">Confirm and pay $1,888.00</span>
+</button>
+</section>
+</div>
+<!-- Right Column: Sticky Order Summary Card -->
+<div class="lg:col-span-5 relative">
+<aside class="sticky top-28 bg-surface-container-lowest rounded-2xl p-space-lg shadow-xl flex flex-col gap-space-md">
+<!-- Listing Preview Header -->
+<div class="flex gap-space-md items-start">
+<div class="w-28 h-28 rounded-xl overflow-hidden shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Breathtaking modern luxury villa perched on the beachfront of Bali with private turquoise infinity pool overlooking waves at golden sunset, warm atmospheric exterior lighting, lush palms, clean minimalist architecture." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyKtA_Jy03n9KaiAXJyWNEU8SGCqwWiCEdr5jdPEOIEESovhxQ2rIp-Sy-rygIADWRlDBtQ73x2rwNDQIJQiIDfNMEFO8l5Dorep9xtEliz4VKZpX1PDX6S5XNpsisefeJlvC-93D71TCxutNbg4Yf4iXvfInwYPqZIfbXGOsPqHDjZXYL47Oay_sSKKbSxBWNfVnskRwoxMhIR7UGKq7Bn-Oz6Hwyp8MotupMT6ly-c0oGtaBvFUH7A"/>
+</div>
+<div class="flex flex-col justify-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Entire luxury villa</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface line-clamp-2 mt-0.5">Villa Balian Beachfront &amp; Infinity Pool</h3>
+<div class="flex items-center gap-1 mt-1 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md">4.98</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(142 reviews)</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm mt-0.5">
+<span class="material-symbols-outlined text-primary text-[14px]">verified</span>
+<span>Superhost</span>
+</div>
+</div>
+</div>
+<!-- AirCover Badge -->
+<div class="bg-surface-container-low rounded-xl p-space-sm flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[24px]">verified_user</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">StayNest AirCover Protection</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Booking protection &amp; 24/7 host resolution support included.</span>
+</div>
+</div>
+<!-- Price Breakdown Table -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Price details</h4>
+<div class="flex justify-between items-center font-body-md text-body-md text-on-surface">
+<span class="underline decoration-dotted cursor-pointer hover:text-primary">5 nights × $285.00</span>
+<span>$1,425.00</span>
+</div>
+<div class="flex justify-between items-center font-body-md text-body-md text-on-surface">
+<span class="underline decoration-dotted cursor-pointer hover:text-primary">Cleaning fee</span>
+<span>$120.00</span>
+</div>
+<div class="flex justify-between items-center font-body-md text-body-md text-on-surface">
+<span class="underline decoration-dotted cursor-pointer hover:text-primary">StayNest service fee</span>
+<span>$198.00</span>
+</div>
+<div class="flex justify-between items-center font-body-md text-body-md text-on-surface">
+<span class="underline decoration-dotted cursor-pointer hover:text-primary">Taxes &amp; occupancy fees</span>
+<span>$145.00</span>
+</div>
+</div>
+<!-- Grand Total Row -->
+<div class="bg-surface-container-low -mx-space-lg px-space-lg py-space-md mt-space-xs flex justify-between items-baseline">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Total (USD)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Includes all applicable local fees</span>
+</div>
+<span class="font-headline-lg text-headline-lg text-on-surface font-bold" id="summary-total-price">$1,888.00</span>
+</div>
+<!-- Payment Schedule Info Inside Summary -->
+<div class="font-body-sm text-body-sm text-on-surface-variant flex flex-col gap-1" id="summary-schedule-info">
+<div class="flex justify-between">
+<span>Due now</span>
+<span class="font-label-md text-label-md text-on-surface" id="summary-due-now">$1,888.00</span>
+</div>
+<div class="hidden justify-between text-tertiary" id="summary-due-later-row">
+<span>Due on Oct 1, 2026</span>
+<span class="font-label-md text-label-md">$944.00</span>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<!-- Success / Confirmation Modal Simulator -->
+<div class="fixed inset-0 z-50 hidden flex items-center justify-center bg-inverse-surface/60 backdrop-blur-sm p-margin-mobile" id="confirmation-modal">
+<div class="bg-surface-container-lowest max-w-lg w-full rounded-2xl p-space-xl shadow-2xl flex flex-col items-center text-center animate-in fade-in zoom-in-95 duration-200">
+<!-- Success Icon -->
+<div class="w-16 h-16 rounded-full bg-tertiary-fixed flex items-center justify-center text-tertiary mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[36px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Booking Confirmed!</span>
+<h3 class="font-headline-xl text-headline-xl text-on-surface mt-1">You're going to Bali!</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+        Your reservation for <strong class="text-on-surface">Villa Balian Beachfront &amp; Infinity Pool</strong> is complete. Host Wayra has been notified.
+      </p>
+<!-- Booking Card Ticket -->
+<div class="w-full bg-surface-container-low rounded-xl p-space-md my-space-lg flex flex-col gap-space-xs text-left">
+<div class="flex justify-between items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant">RESERVATION CODE</span>
+<span class="font-label-md text-label-md text-primary font-mono">#SN-89421</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant">CHECK-IN</span>
+<span class="font-label-md text-label-md text-on-surface">Oct 15, 2026 (3:00 PM)</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant">AMOUNT CHARGED</span>
+<span class="font-label-md text-label-md text-on-surface" id="modal-charged-amount">$1,888.00 USD</span>
+</div>
+</div>
+<!-- Quick Actions -->
+<div class="w-full flex flex-col sm:flex-row gap-space-sm">
+<button class="flex-1 bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md py-2.5 px-space-md rounded-xl transition-colors flex items-center justify-center gap-1" id="btn-message-host" type="button">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+          Message Host
+        </button>
+<button class="flex-1 bg-primary text-on-primary font-label-md text-label-md py-2.5 px-space-md rounded-xl hover:opacity-95 transition-opacity" id="btn-close-modal" type="button">
+          View Trip Details
+        </button>
+</div>
+</div>
+</div>
+<!-- Interactive Client-side Scripting -->
+<script>
+    (function() {
+      // Date Picker simulation toggle
+      const btnEditDates = document.getElementById('btn-edit-dates');
+      const dateDrawer = document.getElementById('date-picker-drawer');
+      const btnCloseDates = document.getElementById('btn-close-date-picker');
+      const btnSaveDates = document.getElementById('btn-save-dates');
+
+      btnEditDates?.addEventListener('click', () => {
+        dateDrawer.classList.toggle('hidden');
+      });
+      btnCloseDates?.addEventListener('click', () => {
+        dateDrawer.classList.add('hidden');
+      });
+      btnSaveDates?.addEventListener('click', () => {
+        dateDrawer.classList.add('hidden');
+      });
+
+      // Guests Picker toggle & counter
+      const btnEditGuests = document.getElementById('btn-edit-guests');
+      const guestsDrawer = document.getElementById('guests-picker-drawer');
+      const btnCloseGuests = document.getElementById('btn-close-guests-picker');
+      const guestPlus = document.getElementById('guest-plus');
+      const guestMinus = document.getElementById('guest-minus');
+      const guestCount = document.getElementById('guest-count');
+      const displayGuests = document.getElementById('display-guests');
+
+      let guests = 2;
+
+      btnEditGuests?.addEventListener('click', () => {
+        guestsDrawer.classList.toggle('hidden');
+      });
+      btnCloseGuests?.addEventListener('click', () => {
+        guestsDrawer.classList.add('hidden');
+      });
+
+      guestPlus?.addEventListener('click', () => {
+        if (guests < 8) {
+          guests++;
+          guestCount.textContent = guests;
+          displayGuests.textContent = `${guests} guests (1 bedroom, 1 bed)`;
+        }
+      });
+
+      guestMinus?.addEventListener('click', () => {
+        if (guests > 1) {
+          guests--;
+          guestCount.textContent = guests;
+          displayGuests.textContent = `${guests} ${guests === 1 ? 'guest' : 'guests'} (1 bedroom, 1 bed)`;
+        }
+      });
+
+      // Payment plan selector logic
+      const planRadios = document.querySelectorAll('input[name="payment_plan"]');
+      const ctaBtnLabel = document.getElementById('cta-button-label');
+      const summaryDueNow = document.getElementById('summary-due-now');
+      const summaryDueLaterRow = document.getElementById('summary-due-later-row');
+      const modalChargedAmount = document.getElementById('modal-charged-amount');
+      const planFullCard = document.getElementById('payment-plan-full-card');
+      const planSplitCard = document.getElementById('payment-plan-split-card');
+
+      planRadios.forEach(radio => {
+        radio.addEventListener('change', (e) => {
+          if (e.target.value === 'split') {
+            ctaBtnLabel.textContent = 'Confirm and pay $944.00';
+            summaryDueNow.textContent = '$944.00';
+            summaryDueLaterRow.classList.remove('hidden');
+            summaryDueLaterRow.classList.add('flex');
+            modalChargedAmount.textContent = '$944.00 USD (Partial)';
+            
+            planSplitCard.classList.add('bg-surface-container-low', 'shadow-sm');
+            planSplitCard.classList.remove('bg-surface-container-lowest');
+            planFullCard.classList.remove('bg-surface-container-low', 'shadow-sm');
+            planFullCard.classList.add('bg-surface-container-lowest');
+          } else {
+            ctaBtnLabel.textContent = 'Confirm and pay $1,888.00';
+            summaryDueNow.textContent = '$1,888.00';
+            summaryDueLaterRow.classList.add('hidden');
+            summaryDueLaterRow.classList.remove('flex');
+            modalChargedAmount.textContent = '$1,888.00 USD';
+
+            planFullCard.classList.add('bg-surface-container-low', 'shadow-sm');
+            planFullCard.classList.remove('bg-surface-container-lowest');
+            planSplitCard.classList.remove('bg-surface-container-low', 'shadow-sm');
+            planSplitCard.classList.add('bg-surface-container-lowest');
+          }
+        });
+      });
+
+      // Payment method tabs
+      const paymentTabs = document.querySelectorAll('.payment-tab');
+      paymentTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          paymentTabs.forEach(t => {
+            t.classList.remove('bg-surface-container-low', 'text-on-surface', 'shadow-sm');
+            t.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+          });
+          tab.classList.add('bg-surface-container-low', 'text-on-surface', 'shadow-sm');
+          tab.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+        });
+      });
+
+      // Submit / Success Modal Trigger
+      const btnSubmit = document.getElementById('btn-submit-booking');
+      const modal = document.getElementById('confirmation-modal');
+      const btnCloseModal = document.getElementById('btn-close-modal');
+      const btnMessageHost = document.getElementById('btn-message-host');
+
+      btnSubmit?.addEventListener('click', () => {
+        btnSubmit.disabled = true;
+        btnSubmit.innerHTML = '<span class="material-symbols-outlined animate-spin text-[20px]">progress_activity</span><span>Processing reservation...</span>';
+        
+        setTimeout(() => {
+          btnSubmit.disabled = false;
+          modal.classList.remove('hidden');
+        }, 800);
+      });
+
+      btnCloseModal?.addEventListener('click', () => {
+        window.location.href = 'index.html';
+      });
+
+      btnMessageHost?.addEventListener('click', () => {
+        modal.classList.add('hidden');
+        alert('Chat window with Superhost Wayra will open.');
+      });
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl"><div class="max-w-[1760px] mx-auto px-margin-mobile md:px-margin pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg pb-space-lg"><div class="flex flex-col gap-space-sm"><h3 class="font-label-lg text-label-lg text-on-surface">Support</h3><ul class="flex flex-col gap-space-xs"><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Help Center</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">AirCover guarantee</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Anti-discrimination</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Disability support</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Cancellation options</li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-label-lg text-label-lg text-on-surface">Hosting</h3><ul class="flex flex-col gap-space-xs"><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">StayNest your home</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">AirCover for Hosts</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Hosting resources</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Community forum</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Hosting responsibly</li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-label-lg text-label-lg text-on-surface">StayNest</h3><ul class="flex flex-col gap-space-xs"><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Newsroom</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">New features</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Careers</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Investors</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Gift cards</li></ul></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-wrap items-center gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><span>© 2026 StayNest, Inc.</span><span>·</span><a class="hover:text-on-surface transition-colors" href="#">Privacy</a><span>·</span><a class="hover:text-on-surface transition-colors" href="#">Terms</a><span>·</span><a class="hover:text-on-surface transition-colors" href="#">Sitemap</a><span>·</span><a class="hover:text-on-surface transition-colors" href="#">Company details</a></div><div class="flex items-center gap-space-lg font-label-md text-label-md text-on-surface"><div class="flex items-center gap-space-xs cursor-pointer hover:text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-[18px]">language</span><span>English (US)</span></div><div class="flex items-center gap-space-xs cursor-pointer hover:text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-[18px]">attach_money</span><span>USD</span></div></div></div></div></footer></body></html>

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-secondary":"#ffffff","on-primary-fixed-variant":"#920029","surface-bright":"#fcf9f8","inverse-on-surface":"#f3f0ef","on-secondary-fixed":"#40000e","on-surface-variant":"#5c3f41","tertiary-container":"#008287","inverse-surface":"#303030","tertiary":"#00676b","secondary-container":"#ff576f","on-tertiary-fixed-variant":"#004f52","on-primary-container":"#fffbff","surface-container":"#f0eded","on-secondary-fixed-variant":"#92002a","primary-container":"#e21e4a","surface-container-lowest":"#ffffff","outline-variant":"#e5bdbe","surface-tint":"#be0038","tertiary-fixed-dim":"#74d6db","on-tertiary":"#ffffff","primary-fixed-dim":"#ffb2b6","error-container":"#ffdad6","inverse-primary":"#ffb2b6","outline":"#906f70","on-tertiary-container":"#f3ffff","surface-container-high":"#eae7e7","background":"#fcf9f8","on-error-container":"#93000a","surface":"#fcf9f8","secondary-fixed-dim":"#ffb2b7","on-secondary-container":"#5f0019","on-error":"#ffffff","surface-variant":"#e5e2e1","on-tertiary-fixed":"#002021","primary":"#ba0036","surface-container-highest":"#e5e2e1","surface-dim":"#dcd9d9","tertiary-fixed":"#91f2f7","secondary":"#b61e3e","on-surface":"#1b1c1c","on-background":"#1b1c1c","error":"#ba1a1a","on-primary-fixed":"#40000d","surface-container-low":"#f6f3f2","secondary-fixed":"#ffdadb","primary-fixed":"#ffdada","on-primary":"#ffffff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xl":"2.5rem","gutter-sm":"1rem","margin-mobile":"1.25rem","space-lg":"1.5rem","space-xs":"0.25rem","margin":"2.5rem","space-sm":"0.5rem","gutter":"1.5rem","space-md":"1rem"},"fontFamily":{"headline-xl":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-md":["Inter"],"body-lg":["Inter"],"body-sm":["Inter"],"label-md":["Inter"],"label-sm":["Inter"],"label-lg":["Inter"]},"fontSize":{"headline-xl":["32px",{"lineHeight":"40px","fontWeight":"700"}],"headline-xl-mobile":["26px",{"lineHeight":"32px","fontWeight":"700"}],"headline-md":["20px",{"lineHeight":"26px","fontWeight":"600"}],"headline-lg":["24px",{"lineHeight":"30px","fontWeight":"600"}],"headline-sm":["16px",{"lineHeight":"22px","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","fontWeight":"600"}],"label-sm":["10px",{"lineHeight":"14px","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"18px","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.06)]"><div class="h-20 max-w-[1760px] mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm"><a href="index.html"><img alt="StayNest Logo" class="h-8 w-auto object-contain" src="assets/logo.svg"/></a><span class="font-headline-md text-headline-md text-primary tracking-tight hidden sm:inline-block">StayNest</span></div><div class="hidden md:flex items-center bg-surface-container-lowest shadow-[0_1px_2px_rgba(0,0,0,0.08),0_4px_12px_rgba(0,0,0,0.05)] hover:shadow-[0_6px_20px_rgba(0,0,0,0.12)] transition-shadow duration-200 rounded-full py-2 px-space-md cursor-pointer"><button class="font-label-lg text-label-lg text-on-surface px-space-sm hover:text-on-surface-variant transition-colors" type="button">Anywhere</button><div class="h-6 w-[1px] bg-surface-container mx-space-xs"></div><button class="font-label-lg text-label-lg text-on-surface px-space-sm hover:text-on-surface-variant transition-colors" type="button">Any week</button><div class="h-6 w-[1px] bg-surface-container mx-space-xs"></div><button class="font-body-md text-body-md text-on-surface-variant px-space-sm hover:text-on-surface transition-colors" type="button">Add guests</button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-on-primary ml-space-xs"><span class="material-symbols-outlined text-[18px]">search</span></div></div><div class="flex items-center gap-space-sm"><nav class="flex items-center gap-space-xs" data-active-classes="text-on-surface font-bold"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-space-sm py-space-xs rounded-full hover:bg-surface-container-low transition-colors hidden sm:block" data-path="host-homes" href="#">Become a host</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-space-sm py-space-xs rounded-full hover:bg-surface-container-low transition-colors hidden lg:block" data-path="explore-catalog" href="#">Experiences</a></nav><button class="w-10 h-10 rounded-full hover:bg-surface-container-low flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">globe</span></button><div class="flex items-center gap-space-sm bg-surface-container-lowest hover:shadow-[0_2px_8px_rgba(0,0,0,0.1)] transition-shadow duration-150 py-1.5 px-space-sm rounded-full cursor-pointer"><span class="material-symbols-outlined text-on-surface text-[20px]">menu</span><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8fbPLZMC_qdJ5SypD5VLQxl9ACFaTy7lEFcDHmy7TO3e13ujXPnNPPoc60JWmZ8fV7JzNA8kZ39oBfiky1iS6PuLB2eA2ZsTQd54uINMJ4GtRyB5-32NLULPDLKwwikfWZdOitYmbgiQgKdol0hdvPPX15X7DaWW0rfTl25T5eiYYj89UUmh6VzbLEKitoeH-avRfQlB8t3rgKyUwOv58fWnTINYjQhgPcYqtSSanqN695k1noXoSnw"/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-280px)]"><div class="flex flex-col w-full">
+<div class="max-w-[1760px] mx-auto px-margin-mobile md:px-margin w-full pb-space-xl">
+<!-- Top Editorial Header & Quick Actions -->
+<header class="pt-space-md pb-space-sm flex flex-col gap-space-xs">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm tracking-wide uppercase mb-1">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">hotel_class</span>
+            Guest Favorite Selection
+          </span>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+            Exclusive Beachfront Villa Balian &amp; Infinity Pool
+          </h1>
+</div>
+<div class="flex items-center gap-space-xs shrink-0">
+<button class="group flex items-center gap-space-xs px-space-sm py-2 rounded-full hover:bg-surface-container-low transition-colors text-on-surface" type="button">
+<span class="material-symbols-outlined text-[20px] group-hover:scale-110 transition-transform">ios_share</span>
+<span class="font-label-lg text-label-lg underline underline-offset-4 decoration-outline-variant">Share</span>
+</button>
+<button class="group flex items-center gap-space-xs px-space-sm py-2 rounded-full hover:bg-surface-container-low transition-colors text-on-surface" id="wishlist-btn" type="button">
+<span class="material-symbols-outlined text-[20px] text-primary group-hover:scale-110 transition-transform" id="wishlist-icon">favorite</span>
+<span class="font-label-lg text-label-lg underline underline-offset-4 decoration-outline-variant" id="wishlist-label">Save</span>
+</button>
+</div>
+</div>
+<!-- Rating & Location Meta Bar -->
+<div class="flex flex-wrap items-center gap-x-2 gap-y-1 font-body-md text-body-md text-on-surface">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg text-on-surface">4.98</span>
+</div>
+<span>·</span>
+<a class="font-label-lg text-label-lg underline underline-offset-2 decoration-outline hover:text-primary transition-colors" href="#reviews-section">142 reviews</a>
+<span>·</span>
+<div class="flex items-center gap-1 font-label-md text-label-md text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px] text-primary-container" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span>Superhost</span>
+</div>
+<span>·</span>
+<span class="underline underline-offset-2 text-on-surface-variant">Balian Beach, Bali, Indonesia</span>
+</div>
+</header>
+<!-- Airbnb Bento 5-Photo Hero Showcase -->
+<section class="relative w-full rounded-2xl overflow-hidden shadow-sm my-space-sm">
+<div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-2 h-[380px] sm:h-[460px] md:h-[540px]">
+<!-- Primary Showcase Image (Spans 2 cols, 2 rows) -->
+<div class="md:col-span-2 md:row-span-2 relative overflow-hidden group cursor-pointer bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Photorealistic wide angle architectural view of a luxury modern open-air villa in Balian Beach Bali, perched over the coastline, featuring an azure infinity pool spilling towards dramatic ocean waves, lined with tropical lush palm trees, warm late afternoon golden hour lighting with rattan sunbeds." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfCmLyq8dnP8XV--Ixrd1YmgDWKoAg9pm-03HgBRwv_YbRuSWyGTAtxVCuxqhL1xfuxID6txn78-BhaEarJg4xyMHM9FjW4oyOpoIuRAAsLn935IrjoPk4zptdiSsZk8iFeISPzeeRcNbcCMsAVvdTfjyMTqBfy26XLCKelz_f1lgrbBzs-xhHSgndGf_k2htvRM8eIQZaSwQcj1N3rsFKx69ZBBHMpesywgGJAguj-hjIRIfwOKM4BA"/>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-surface-container-lowest/95 backdrop-blur-md px-3 py-1.5 rounded-full font-label-md text-label-md text-on-surface shadow-md flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+              Live Sunset Viewpoint
+            </span>
+</div>
+</div>
+<!-- 4 Supporting Editorial Images -->
+<div class="relative overflow-hidden group cursor-pointer bg-surface-container hidden md:block">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Interior architectural photograph of a serene master bedroom with natural oak platform king bed, soft washed linen textiles in ivory, sliding floor-to-ceiling glass doors opening onto ocean balcony with morning sunlight casting soft geometric shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBf1wNbuKzlYtVYc3XDe7u8LOkPnRSonfCM6pHmJHXDOdK5sf4GOAXcmyurZl78v9vJqUKdGqitlViAL3Q1cXA6PwqiwPoeuhjDPQQ-owMIqAezqxJhqah3mrGKPf03DRfB439AlyYlTDOR6a4GxthqMoxyaKA96lPJyDJ1dIgg41LcgckYXmeuIEESnrRww2iBq8DWABzF2Md-nOy3xDNsUgw-R5hi6DQG51rW_zuxtvw6z0iLGmqnUQ"/>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="relative overflow-hidden group cursor-pointer bg-surface-container hidden md:block">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Zen open-air stone bathtub hand-carved from river rock, surrounded by manicured tropical monsteras, brass rainwater fixtures, and warm atmospheric wellness candlelight in Bali." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1ND9z1O8rP2MwYceNi1M62iIcDokMEntZxw1_Kr7K7yfig5b_sdQ-xu83fcwKyeiLPwGMQO1RrbALkkwtG-_d3zMLy-EckpGKV6Qg4BWb5LB2rJZg9IryGELWzrTBfArH8QqDfcRHR4k1vIzyBmnR03piTeTFjHmnnAHjwVBLXFHfTHZEjoAFDCT3MgrELlzBr1kjizU1RRDxcBhSxex-G7NmL_98Q5rvJPOajSn1Cxcj2Cu4VKOMyA"/>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="relative overflow-hidden group cursor-pointer bg-surface-container hidden md:block">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Open-concept Balinese luxury living lounge with soaring bamboo vaulted ceilings, contemporary low-slung linen sofa, travertine coffee table, and direct unobstructed panoramic ocean panoramas." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0f7ThWn4F-f40nHriUPhxi8bub59baPKEtRWvFq_ejxdfZgoy0iAiUIaIIBA5F7XoIVgRFZcS0U1V9lnwid0duw7zVrtlNoGXUoTmYnPgdQVmRjsSTzATt8nmDmn8nyBrabEn6ZnpupD5qWiKeZBGhBN8FZ_ASTQcvSCKSkncIsHJ6PYz7Tcx0C4NKCYJCahyyeldQuix0lMOgNaRJkhrJ9rJ6cZMOrbz39f4Rm50ellBB3wbzhe9ow"/>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="relative overflow-hidden group cursor-pointer bg-surface-container hidden md:block">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Vibrant tropical sunset over breaking surf waves at Balian Beach seen from the cantilevered villa deck, sky painted in soft corals, rich ambers, and twilight indigo tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpY1dr88_xlFCoxwp1UOimTu_ahKbNyAIAnoNiNynd3OEJYIBHTQTkHY4gDyb7CaPr9o_R0PLjRqpO6qaeCHrtRlmtGYfxt7kQpnO79qC1rrX6pbJB2T9RFX4NB1k-Mf7UprrH0afHbu8k9rqRpE0Z1zqMctHTjbAUXr1Su4t9OGI1SMR7Hkk50PTfbFpWfkVtJAQZLx5uZMOdoFAyu93BskgXRXzIFbLsRs63WyJpBLWLQ_4c0b_sew"/>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
+</div>
+</div>
+<!-- Floating Gallery Pill Button -->
+<button class="absolute bottom-5 right-5 bg-surface-container-lowest/95 hover:bg-surface-container-lowest backdrop-blur-md px-4 py-2 rounded-xl shadow-md font-label-lg text-label-lg text-on-surface flex items-center gap-2 hover:scale-105 transition-all active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">grid_view</span>
+<span>Show all 28 photos</span>
+</button>
+</section>
+<!-- Main Content Section: Two Column Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter mt-space-lg relative">
+<!-- Left Editorial Column (70% - lg:col-span-8) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Host Avatar & House Specs Header -->
+<div class="flex items-center justify-between pb-space-lg bg-surface-container-lowest p-space-md rounded-2xl shadow-sm">
+<div class="flex flex-col gap-1">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+              Entire luxury villa hosted by Sarah
+            </h2>
+<div class="flex flex-wrap items-center gap-x-2 gap-y-1 font-body-md text-body-md text-on-surface-variant">
+<span>8 guests</span>
+<span>·</span>
+<span>4 bedrooms</span>
+<span>·</span>
+<span>4 beds</span>
+<span>·</span>
+<span>4.5 baths</span>
+</div>
+</div>
+<div class="relative shrink-0">
+<img alt="Host Sarah smiling portrait" class="w-16 h-16 rounded-full object-cover ring-2 ring-primary/20 shadow-md" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8fbPLZMC_qdJ5SypD5VLQxl9ACFaTy7lEFcDHmy7TO3e13ujXPnNPPoc60JWmZ8fV7JzNA8kZ39oBfiky1iS6PuLB2eA2ZsTQd54uINMJ4GtRyB5-32NLULPDLKwwikfWZdOitYmbgiQgKdol0hdvPPX15X7DaWW0rfTl25T5eiYYj89UUmh6VzbLEKitoeH-avRfQlB8t3rgKyUwOv58fWnTINYjQhgPcYqtSSanqN695k1noXoSnw"/>
+<div class="absolute -bottom-1 -right-1 bg-primary text-on-primary rounded-full w-6 h-6 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">military_tech</span>
+</div>
+</div>
+</div>
+<!-- Superhost & Property Highlights Stack -->
+<div class="bg-surface-container-lowest p-space-md rounded-2xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-xl bg-surface-container-low flex items-center justify-center text-on-surface shrink-0">
+<span class="material-symbols-outlined text-[22px]">desk</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Dedicated workspace</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">A private sound-insulated study with 180 Mbps fiber mesh WiFi and an ergonomic Herman Miller chair.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-xl bg-surface-container-low flex items-center justify-center text-on-surface shrink-0">
+<span class="material-symbols-outlined text-[22px]">key</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Self check-in</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Check yourself in seamlessly anytime after 3:00 PM via smart keyless keypad access.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-xl bg-surface-container-low flex items-center justify-center text-on-surface shrink-0">
+<span class="material-symbols-outlined text-[22px]">military_tech</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Sarah is a Superhost</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Superhosts are experienced, top-rated hosts dedicated to delivering unforgettable luxury stays.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-xl bg-surface-container-low flex items-center justify-center text-on-surface shrink-0">
+<span class="material-symbols-outlined text-[22px]">event_available</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Free cancellation before Oct 10</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Full refund within 48 hours of booking if your reservation is at least 14 days away.</p>
+</div>
+</div>
+</div>
+<!-- AirCover Assurance Card -->
+<div class="p-space-md rounded-2xl bg-surface-container-low flex flex-col gap-space-xs">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-lg text-headline-lg text-primary font-bold tracking-tight">Stay</span><span class="font-headline-lg text-headline-lg text-on-surface font-bold tracking-tight">Cover</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Every booking includes comprehensive protection from Host cancellations, listing inaccuracies, and other issues like trouble checking in.
+          </p>
+<a class="font-label-lg text-label-lg underline font-semibold text-on-surface hover:text-primary transition-colors mt-1 inline-block" href="#">Learn more</a>
+</div>
+<!-- Sleeping Arrangements Horizontal Bento -->
+<div class="flex flex-col gap-space-sm">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Where you'll sleep</h2>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md">
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between h-44 hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between text-on-surface">
+<span class="material-symbols-outlined text-[28px]">king_bed</span>
+<span class="font-label-sm text-label-sm bg-surface-container px-2 py-0.5 rounded-full text-on-surface-variant">En-suite</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Bedroom 1</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">1 King bed · Ocean view</p>
+</div>
+</div>
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between h-44 hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between text-on-surface">
+<span class="material-symbols-outlined text-[28px]">bed</span>
+<span class="font-label-sm text-label-sm bg-surface-container px-2 py-0.5 rounded-full text-on-surface-variant">Garden</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Bedroom 2</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">1 Queen bed · Balcony</p>
+</div>
+</div>
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between h-44 hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between text-on-surface">
+<span class="material-symbols-outlined text-[28px]">single_bed</span>
+<span class="font-label-sm text-label-sm bg-surface-container px-2 py-0.5 rounded-full text-on-surface-variant">Twin</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Bedroom 3</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">2 Single beds · Courtyard</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Editorial Description Section -->
+<div class="flex flex-col gap-space-sm bg-surface-container-lowest p-space-md rounded-2xl shadow-sm">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">About this space</h2>
+<div class="font-body-lg text-body-lg text-on-surface leading-relaxed flex flex-col gap-3">
+<p>
+              Designed by acclaimed Balinese minimalist architects, Villa Balian merges sustainable teakwood craftsmanship with clean modern lines directly fronting the unspoiled surf haven of Balian Beach. Wake to uninterrupted waves breaking gently against black sand shores, surrounded by private coconut groves.
+            </p>
+<p class="hidden text-on-surface-variant" id="expanded-desc">
+              The villa includes a daily dedicated gourmet chef offering organic farm-to-table Balinese breakfasts, full housekeeping, and an on-call concierge. Relax inside the double-height vaulted timber pavilion, rejuvenate within the outdoor lava stone soaking tub, or dive into the 18-meter saltwater infinity pool perched over the tide line. High-speed Starlink WiFi seamlessly covers every corner of the property.
+            </p>
+</div>
+<button class="flex items-center gap-1 font-label-lg text-label-lg text-primary underline underline-offset-4 w-fit mt-1 hover:text-secondary transition-colors" id="desc-toggle-btn" type="button">
+<span>Show more</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+<!-- Amenities Modern Checklist -->
+<div class="flex flex-col gap-space-md bg-surface-container-lowest p-space-md rounded-2xl shadow-sm">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">What this place offers</h2>
+<span class="font-label-md text-label-md text-on-surface-variant">45 amenities in total</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[24px] text-tertiary">water</span>
+<span class="font-body-lg text-body-lg text-on-surface">Direct private beach access</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[24px] text-tertiary">pool</span>
+<span class="font-body-lg text-body-lg text-on-surface">Private saltwater infinity pool</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[24px] text-tertiary">wifi</span>
+<span class="font-body-lg text-body-lg text-on-surface">Starlink WiFi (180 Mbps mesh)</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[24px] text-tertiary">coffee_maker</span>
+<span class="font-body-lg text-body-lg text-on-surface">Chef kitchen &amp; La Marzocco espresso</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[24px] text-tertiary">local_parking</span>
+<span class="font-body-lg text-body-lg text-on-surface">Free secure parking on premises (2 cars)</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[24px] text-tertiary">ac_unit</span>
+<span class="font-body-lg text-body-lg text-on-surface">Silent central air conditioning</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[24px] text-tertiary">laptop_mac</span>
+<span class="font-body-lg text-body-lg text-on-surface">Ergonomic dedicated studio workspace</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[24px] text-tertiary">deck</span>
+<span class="font-body-lg text-body-lg text-on-surface">Al-fresco outdoor dining patio &amp; BBQ</span>
+</div>
+</div>
+<button class="mt-2 px-6 py-3 rounded-xl bg-surface-container-low hover:bg-surface-container font-label-lg text-label-lg text-on-surface transition-colors w-fit" type="button">
+            Show all 45 amenities
+          </button>
+</div>
+<!-- Interactive 2-Month Calendar Selection Widget -->
+<div class="flex flex-col gap-space-sm bg-surface-container-lowest p-space-md rounded-2xl shadow-sm">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">5 nights in Balian Beach</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Oct 15, 2026 – Oct 20, 2026</p>
+</div>
+<div class="flex items-center gap-2">
+<button class="w-8 h-8 rounded-full bg-surface-container-low hover:bg-surface-container flex items-center justify-center text-on-surface" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button class="w-8 h-8 rounded-full bg-surface-container-low hover:bg-surface-container flex items-center justify-center text-on-surface" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Dual Calendar Layout -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg pt-space-sm">
+<!-- Month 1: October 2026 -->
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-sm text-headline-sm text-center text-on-surface">October 2026</h3>
+<div class="grid grid-cols-7 text-center font-label-sm text-label-sm text-on-surface-variant py-1">
+<span>Su</span><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span>
+</div>
+<div class="grid grid-cols-7 gap-1 text-center font-body-sm text-body-sm">
+<!-- Days padding -->
+<span class="py-2 text-surface-dim">28</span>
+<span class="py-2 text-surface-dim">29</span>
+<span class="py-2 text-surface-dim">30</span>
+<span class="py-2">1</span><span class="py-2">2</span><span class="py-2">3</span><span class="py-2">4</span>
+<span class="py-2">5</span><span class="py-2">6</span><span class="py-2">7</span><span class="py-2">8</span><span class="py-2">9</span><span class="py-2">10</span><span class="py-2">11</span>
+<span class="py-2">12</span><span class="py-2">13</span><span class="py-2">14</span>
+<!-- Selected Range Start: Oct 15 -->
+<span class="py-2 bg-primary text-on-primary font-bold rounded-l-full relative cursor-pointer">15</span>
+<!-- In range -->
+<span class="py-2 bg-primary-fixed text-on-primary-fixed-variant cursor-pointer">16</span>
+<span class="py-2 bg-primary-fixed text-on-primary-fixed-variant cursor-pointer">17</span>
+<span class="py-2 bg-primary-fixed text-on-primary-fixed-variant cursor-pointer">18</span>
+<span class="py-2 bg-primary-fixed text-on-primary-fixed-variant cursor-pointer">19</span>
+<!-- Selected Range End: Oct 20 -->
+<span class="py-2 bg-primary text-on-primary font-bold rounded-r-full relative cursor-pointer">20</span>
+<span class="py-2">21</span><span class="py-2">22</span><span class="py-2">23</span><span class="py-2">24</span><span class="py-2">25</span><span class="py-2">26</span><span class="py-2">27</span>
+<span class="py-2">28</span><span class="py-2">29</span><span class="py-2">30</span><span class="py-2">31</span>
+</div>
+</div>
+<!-- Month 2: November 2026 -->
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-sm text-headline-sm text-center text-on-surface">November 2026</h3>
+<div class="grid grid-cols-7 text-center font-label-sm text-label-sm text-on-surface-variant py-1">
+<span>Su</span><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span>
+</div>
+<div class="grid grid-cols-7 gap-1 text-center font-body-sm text-body-sm">
+<span class="py-2">1</span><span class="py-2">2</span><span class="py-2">3</span><span class="py-2">4</span><span class="py-2">5</span><span class="py-2">6</span><span class="py-2">7</span>
+<span class="py-2">8</span><span class="py-2">9</span><span class="py-2">10</span><span class="py-2">11</span><span class="py-2">12</span><span class="py-2">13</span><span class="py-2">14</span>
+<span class="py-2">15</span><span class="py-2">16</span><span class="py-2">17</span><span class="py-2">18</span><span class="py-2">19</span><span class="py-2">20</span><span class="py-2">21</span>
+<span class="py-2">22</span><span class="py-2">23</span><span class="py-2">24</span><span class="py-2">25</span><span class="py-2 text-surface-dim line-through">26</span>
+<span class="py-2 text-surface-dim line-through">27</span>
+<span class="py-2 text-surface-dim line-through">28</span>
+<span class="py-2">29</span><span class="py-2">30</span>
+</div>
+</div>
+</div>
+<div class="flex justify-between items-center pt-2">
+<button class="font-label-md text-label-md underline text-on-surface hover:text-primary" type="button">Clear dates</button>
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-tertiary">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+<span>Minimum stay: 3 nights</span>
+</div>
+</div>
+</div>
+<!-- Guest Reviews & Ratings Breakdown -->
+<section class="flex flex-col gap-space-lg bg-surface-container-lowest p-space-md rounded-2xl shadow-sm" id="reviews-section">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[28px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-headline-lg text-headline-lg text-on-surface">4.98 · 142 reviews</span>
+</div>
+<!-- Rating Bar Metric Sliders -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-3">
+<div class="flex items-center justify-between gap-4">
+<span class="font-body-md text-body-md text-on-surface">Cleanliness</span>
+<div class="flex items-center gap-3 w-40">
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-on-surface h-full w-[100%] rounded-full"></div>
+</div>
+<span class="font-label-md text-label-md text-on-surface w-6 text-right">5.0</span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-4">
+<span class="font-body-md text-body-md text-on-surface">Accuracy</span>
+<div class="flex items-center gap-3 w-40">
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-on-surface h-full w-[98%] rounded-full"></div>
+</div>
+<span class="font-label-md text-label-md text-on-surface w-6 text-right">4.9</span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-4">
+<span class="font-body-md text-body-md text-on-surface">Communication</span>
+<div class="flex items-center gap-3 w-40">
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-on-surface h-full w-[100%] rounded-full"></div>
+</div>
+<span class="font-label-md text-label-md text-on-surface w-6 text-right">5.0</span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-4">
+<span class="font-body-md text-body-md text-on-surface">Location</span>
+<div class="flex items-center gap-3 w-40">
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-on-surface h-full w-[100%] rounded-full"></div>
+</div>
+<span class="font-label-md text-label-md text-on-surface w-6 text-right">5.0</span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-4">
+<span class="font-body-md text-body-md text-on-surface">Value</span>
+<div class="flex items-center gap-3 w-40">
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-on-surface h-full w-[96%] rounded-full"></div>
+</div>
+<span class="font-label-md text-label-md text-on-surface w-6 text-right">4.8</span>
+</div>
+</div>
+</div>
+<!-- Review Testimonials Mosaic -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-2">
+<div class="flex flex-col gap-2 p-space-sm rounded-xl bg-surface-container-low">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center font-label-lg font-bold">
+                  MP
+                </div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Marcus Powell</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">London, United Kingdom · September 2026</p>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface">
+                "An absolute sanctuary. The infinity pool looks straight into world-class surf breaks. Sarah and her team prepared exceptional breakfasts every morning and respected our quiet time."
+              </p>
+</div>
+<div class="flex flex-col gap-2 p-space-sm rounded-xl bg-surface-container-low">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-label-lg font-bold">
+                  EL
+                </div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Elena Rostova</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sydney, Australia · August 2026</p>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface">
+                "The Starlink internet is rock solid for remote work while listening to the tides. Words don't do justice to the sunset from the deck. We've already re-booked for next summer."
+              </p>
+</div>
+</div>
+<button class="px-6 py-3 rounded-xl bg-surface-container-low hover:bg-surface-container font-label-lg text-label-lg text-on-surface transition-colors w-fit" type="button">
+            Show all 142 reviews
+          </button>
+</section>
+<!-- Location & Neighborhood Map Section -->
+<div class="flex flex-col gap-space-md bg-surface-container-lowest p-space-md rounded-2xl shadow-sm">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Where you'll be</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Balian Beach, Selemadeg Barat, Tabanan Regency, Bali</p>
+</div>
+<!-- Static Map Component -->
+<div class="w-full h-80 rounded-2xl bg-cover bg-center relative shadow-inner overflow-hidden" data-location="Balian Beach, Bali, Indonesia" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCnu0rWstdhiEAKp3DuJSeR6SqSwQNg_oYsSwY2Hdv0INCTWYderfxIODebuNY2xnnodJVVl7zjqID_JK-vdqCsUmuc4IwYgzfw5pXKevierrOpzPH_2KPlDFAbAx-mkqnezsGCkkjVRJUNjkd6Xybs7d6vUd9ogQvyNq1PwJX6_ABptLV2r2bjFCc-nvL-_GiITHiLAyImZFpdHO4Y_Lp2jCfd9tF987XR-PWMePmZS7qly8Cts6DAyw')">
+<!-- Map marker overlay -->
+<div class="absolute inset-0 bg-black/10 flex items-center justify-center">
+<div class="relative flex items-center justify-center">
+<div class="w-16 h-16 rounded-full bg-primary/20 animate-ping absolute"></div>
+<div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-2xl z-10">
+<span class="material-symbols-outlined text-[24px]">villa</span>
+</div>
+</div>
+</div>
+<div class="absolute bottom-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1.5 rounded-xl font-label-sm text-label-sm text-on-surface shadow-sm flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-tertiary">surfing</span>
+<span>50m from Balian Surf Peak</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm pt-2">
+<div class="p-3 bg-surface-container-low rounded-xl">
+<span class="font-label-md text-label-md text-on-surface block">Surf Breaks</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">2-min walk down a private trail</span>
+</div>
+<div class="p-3 bg-surface-container-low rounded-xl">
+<span class="font-label-md text-label-md text-on-surface block">Local Warungs &amp; Cafes</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">5-min walk along the beach path</span>
+</div>
+<div class="p-3 bg-surface-container-low rounded-xl">
+<span class="font-label-md text-label-md text-on-surface block">Airport (DPS)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">90-min scenic coastal transfer</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Sticky Reservation Overlay (30% - lg:col-span-4) -->
+<div class="lg:col-span-4 relative">
+<aside class="sticky top-28 w-full bg-surface-container-lowest rounded-2xl shadow-xl p-space-md flex flex-col gap-space-md">
+<!-- Price Header -->
+<div class="flex items-baseline justify-between">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-xl text-headline-xl text-on-surface font-bold">$285</span>
+<span class="font-body-md text-body-md text-on-surface-variant">/ night</span>
+</div>
+<div class="flex items-center gap-1 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-on-surface font-bold">4.98</span>
+<span class="text-on-surface-variant">·</span>
+<a class="text-on-surface-variant underline" href="#reviews-section">142 reviews</a>
+</div>
+</div>
+<!-- Segmented Picker Tray -->
+<div class="rounded-xl overflow-hidden shadow-sm bg-surface-container-low">
+<div class="grid grid-cols-2">
+<div class="p-2.5 hover:bg-surface-container transition-colors cursor-pointer">
+<span class="block font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Check-in</span>
+<span class="font-label-md text-label-md text-on-surface">10/15/2026</span>
+</div>
+<div class="p-2.5 hover:bg-surface-container transition-colors cursor-pointer">
+<span class="block font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Checkout</span>
+<span class="font-label-md text-label-md text-on-surface">10/20/2026</span>
+</div>
+</div>
+<div class="p-2.5 hover:bg-surface-container transition-colors cursor-pointer flex items-center justify-between">
+<div>
+<span class="block font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Guests</span>
+<span class="font-label-md text-label-md text-on-surface">2 guests</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">expand_more</span>
+</div>
+</div>
+<!-- Main Reserve Action Button -->
+<div class="flex flex-col gap-2">
+<button class="w-full py-3.5 rounded-xl bg-gradient-to-r from-primary to-secondary text-on-primary font-headline-sm text-headline-sm shadow-md hover:shadow-lg hover:brightness-105 active:scale-[0.98] transition-all flex items-center justify-center gap-2" id="reserve-btn" type="button">
+<span>Reserve</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<p class="font-body-sm text-body-sm text-center text-on-surface-variant">
+              You won't be charged yet
+            </p>
+</div>
+<!-- Cost Calculation Breakdown -->
+<div class="flex flex-col gap-2.5 pt-2">
+<div class="flex items-center justify-between font-body-md text-body-md text-on-surface">
+<span class="underline decoration-dotted">$285 × 5 nights</span>
+<span>$1,425</span>
+</div>
+<div class="flex items-center justify-between font-body-md text-body-md text-on-surface">
+<span class="underline decoration-dotted">Cleaning fee</span>
+<span>$120</span>
+</div>
+<div class="flex items-center justify-between font-body-md text-body-md text-on-surface">
+<span class="underline decoration-dotted">StayNest service fee</span>
+<span>$198</span>
+</div>
+<div class="flex items-center justify-between font-body-md text-body-md text-on-surface">
+<span class="underline decoration-dotted">Occupancy taxes</span>
+<span>$145</span>
+</div>
+<!-- Grand Total -->
+<div class="flex items-center justify-between pt-3 mt-1 font-headline-sm text-headline-sm text-on-surface">
+<span>Total before taxes</span>
+<span>$1,888</span>
+</div>
+</div>
+<!-- Rare Find Badge Highlight -->
+<div class="p-3 rounded-xl bg-surface-container flex items-start gap-3 mt-1">
+<span class="material-symbols-outlined text-primary text-[22px] shrink-0" style="font-variation-settings: 'FILL' 1;">diamond</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">This is a rare find</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sarah's villa on Bali is usually fully booked for October.</span>
+</div>
+</div>
+<!-- Report Listing Action -->
+<div class="flex items-center justify-center gap-1.5 pt-1">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">flag</span>
+<button class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface underline transition-colors" type="button">
+              Report this listing
+            </button>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<script>
+    // Wishlist Toggle Micro-interaction
+    const wishlistBtn = document.getElementById('wishlist-btn');
+    const wishlistIcon = document.getElementById('wishlist-icon');
+    const wishlistLabel = document.getElementById('wishlist-label');
+    let isSaved = false;
+
+    if (wishlistBtn) {
+      wishlistBtn.addEventListener('click', () => {
+        isSaved = !isSaved;
+        if (isSaved) {
+          wishlistIcon.style.fontVariationSettings = "'FILL' 1";
+          wishlistLabel.textContent = 'Saved';
+        } else {
+          wishlistIcon.style.fontVariationSettings = "'FILL' 0";
+          wishlistLabel.textContent = 'Save';
+        }
+      });
+    }
+
+    // Expandable Description Toggle
+    const descToggleBtn = document.getElementById('desc-toggle-btn');
+    const expandedDesc = document.getElementById('expanded-desc');
+    let isExpanded = false;
+
+    if (descToggleBtn && expandedDesc) {
+      descToggleBtn.addEventListener('click', () => {
+        isExpanded = !isExpanded;
+        if (isExpanded) {
+          expandedDesc.classList.remove('hidden');
+          descToggleBtn.querySelector('span').textContent = 'Show less';
+          descToggleBtn.querySelector('.material-symbols-outlined').textContent = 'expand_less';
+        } else {
+          expandedDesc.classList.add('hidden');
+          descToggleBtn.querySelector('span').textContent = 'Show more';
+          descToggleBtn.querySelector('.material-symbols-outlined').textContent = 'chevron_right';
+        }
+      });
+    }
+
+    // Reservation Micro-interaction Feedback
+    const reserveBtn = document.getElementById('reserve-btn');
+    if (reserveBtn) {
+      reserveBtn.addEventListener('click', () => {
+        const originalText = reserveBtn.innerHTML;
+        reserveBtn.innerHTML = `
+          <span class="material-symbols-outlined text-[18px] animate-spin">refresh</span>
+          <span>Checking dates...</span>
+        `;
+        reserveBtn.disabled = true;
+        setTimeout(() => {
+          window.location.href = 'checkout.html';
+        }, 900);
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl"><div class="max-w-[1760px] mx-auto px-margin-mobile md:px-margin pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg pb-space-lg"><div class="flex flex-col gap-space-sm"><h3 class="font-label-lg text-label-lg text-on-surface">Support</h3><ul class="flex flex-col gap-space-xs"><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Help Center</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">AirCover guarantee</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Anti-discrimination</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Disability support</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Cancellation options</li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-label-lg text-label-lg text-on-surface">Hosting</h3><ul class="flex flex-col gap-space-xs"><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">StayNest your home</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">AirCover for Hosts</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Hosting resources</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Community forum</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Hosting responsibly</li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-label-lg text-label-lg text-on-surface">StayNest</h3><ul class="flex flex-col gap-space-xs"><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Newsroom</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">New features</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Careers</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Investors</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Gift cards</li></ul></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-wrap items-center gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><span>© 2026 StayNest, Inc.</span><span>·</span><a class="hover:text-on-surface transition-colors" href="#">Privacy</a><span>·</span><a class="hover:text-on-surface transition-colors" href="#">Terms</a><span>·</span><a class="hover:text-on-surface transition-colors" href="#">Sitemap</a><span>·</span><a class="hover:text-on-surface transition-colors" href="#">Company details</a></div><div class="flex items-center gap-space-lg font-label-md text-label-md text-on-surface"><div class="flex items-center gap-space-xs cursor-pointer hover:text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-[18px]">language</span><span>English (US)</span></div><div class="flex items-center gap-space-xs cursor-pointer hover:text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-[18px]">attach_money</span><span>USD</span></div></div></div></div></footer></body></html>
